@@ -2,7 +2,7 @@
 
 <h3>Построение <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">ETL-пайплайна</a></h3>
 
-<p dir="auto">Задача: Создать DAG в Airflow с ETL-пайплайном, который будет считаться каждый день за вчера. Требования к пайплайну:</p>
+<p dir="auto"><bold>Задача:</bold> Создать DAG в Airflow с ETL-пайплайном, который будет считаться каждый день за вчера. Требования к пайплайну:</p>
   <ol>
     <li>Необходимо параллельно обрабатывать две таблицы. В feed_actions для каждого юзера считать: число просмотров и лайков контента. В message_actions для каждого юзера считать: количество отправленных сообщений, количество                   отправленных   сообщений, скольким людям он пишет, сколько людей пишет ему. Каждую выгрузку необходимо делать отдельным таском.</li>
     <li>Объединить две полученные таблицы в одну.</li>
@@ -10,7 +10,7 @@
     <li>Финальные данные со всеми метриками записывать в отдельную таблицу в ClickHouse.</li>
     <li>Каждый день таблица должна наполняться новыми данными</li>
   </ol>
-<p dir="auto">Стек: ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
+<p dir="auto"><bold>Стек:</bold> ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
 <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">Код решения задачи</a>
 <br>
 <br>
