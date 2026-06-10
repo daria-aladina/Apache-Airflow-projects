@@ -10,7 +10,7 @@
     <li>Финальные данные со всеми метриками записывать в отдельную таблицу в ClickHouse.</li>
     <li>Каждый день таблица должна наполняться новыми данными.</li>
   </ol>
-<p dir="auto"><bold>Стек:</bold> ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
+<p dir="auto">Стек: ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
 <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">Код решения задачи</a>
 <br>
 <br>
@@ -38,9 +38,8 @@
     <li>Скрипт для сборки отчёта должен по ленте новостей должен состоять из двух частей: текст с информацией о значениях ключевых метрик за предыдущий день, график со значениями метрик за предыдущие 7 дней.</li>
     <li>В отчёте необходимо отобразить следующие ключевые метркии: DAU, просмотры, лайки, CTR.</li>
     <li>Автоматизировать отправку отчёта с помощью Airflow. Отчёт должен приходить ежедневно в 11:00</li>
-    <li>Каждый день таблица должна наполняться новыми данными</li>
   </ol>
-<p dir="auto">Стек: Python (pandas, numpy, pandahouse, airflow.decorators, telegram, seaborn, matplotlib.pyplot),  ClickHouse, Apache Airflow, Git, Telegram</p>
+<p dir="auto">Стек: Python (pandas, numpy, pandahouse, airflow.decorators, telegram, seaborn, matplotlib.pyplot), ClickHouse, Apache Airflow, Git, Telegram</p>
 <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/feed_metrics_daily_report.py" target="_blank">Код решения задачи</a>
 <br>
 <br>
@@ -67,3 +66,35 @@
 
 
 <h2>Релизация <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/alerts_system.py" target="_blank">системы алертов</a></h2>
+
+<p dir="auto"><b>Задача: Написать систему алертов для приложения, которая будет регулярно проверять ключевые метрики и в случае обнаружения аномальных значений отправлять уведомление с отчётом об инцеденте в Telegram. </b> <br> Требования к созданию системы:</p>
+  <ol>
+    <li>Каждые 15 минут система должна проверять ключевые метрики: аткивные пользователи в ленте/мессенджере, просмотры, лайки, CTR, количество отправленных сообщений.</li>
+    <li>Создать интерактивный дашборд в Apache Superset, где будут располагаться риалтайм чарты для гибкого просмотра метрик</li>
+    <li>Изучить поведение метрик и подобрать наиболее подходящий метод для детектирования аномалий</li>
+    <li>Создать бота через @BotFather или подключиться к созданному ранее.</li>
+    <li>В случае обнаружения аномального значения, бот должен отправлять алерт - сообщение со следующей информацией: метрика, её значение, величина отклонения.</li>
+    <li>Также прикреплять к отчёту график с актуальными значениями метрики и ссылку на интерактивный дашборд для исследования причин возникновения аномалии</li>
+    <li>Автоматизировать отправку отчёта с помощью Airflow. Отчёт должен приходить ежедневно в 11:00</li>
+  </ol>
+<p dir="auto">Стек: Apache Superset, Python (pandas, pandahouse, airflow.decorators, telegram, seaborn, matplotlib.pyplot), ClickHouse, Apache Airflow, Git, Telegram</p>
+<a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/alerts_system.py" target="_blank">Код решения задачи</a>
+<br>
+<br>
+<details close>
+ <summary>
+   <b>
+     Демонстрация результата работы DAG с автоматизированной рассылкой алертов через Telegram-бота
+   </b>
+ </summary>
+  <p dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="400" style="max-width: 100%;"></a> 
+    <br> <code>Список запущенных дагов</code> <br><br>
+    <a target="_blank" rel="noopener noreferrer" href="pictures/feed_report_dag_work.png"><img src="pictures/feed_report_dag_work.png" align="absmiddle" width="400" style="max-width: 100%;"></a> 
+    <br> <code>Демонстрация графа и статусов тасков</code> <br><br>
+    <a target="_blank" rel="noopener noreferrer" href="pictures/feed_telegram.png"><img src="pictures/feed_telegram.png" align="absmiddle" width="400" style="max-width: 100%;"></a> 
+    <br> <code>Демонстрация финального отчёта по ленте с отправкой в Telegram</code> <br><br>
+    <a target="_blank" rel="noopener noreferrer" href="pictures/feed_dashbord.jpg"><img src="pictures/feed_dashbord.jpg" align="absmiddle" width="400" style="max-width: 100%;"></a> 
+    <br> <code>Дашборд с данными метрик ленты за последние 7 дней</code> <br><br>
+  </p>
+</details>
