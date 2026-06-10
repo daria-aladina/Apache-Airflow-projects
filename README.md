@@ -13,7 +13,6 @@
 <p dir="auto">Стек: ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
 <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">Код решения задачи</a>
 <br>
-
 <br>
 <details open>
  <summary>
