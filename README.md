@@ -1,6 +1,6 @@
 # Apache-Airflow-projects
 
-<h3>Построение <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">ETL-пайплайна</a></h3>
+<h2>Построение <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">ETL-пайплайна</a></h2>
 
 <p dir="auto">Задача: Создать DAG в Airflow с ETL-пайплайном, который будет считаться каждый день за вчера. <br> Требования к пайплайну:</p>
   <ol>
@@ -25,7 +25,7 @@
   </p>
 </details>
 
-<h3>Автоматизированный <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">отчёт по ленте</a></h3>
+<h2>Автоматизированный <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">отчёт по ленте</a></h2>
 
 
 
