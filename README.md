@@ -21,7 +21,7 @@
    </b>
  </summary>
   <p dir="auto">
-    <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Список запущенных дагов</code> <br>
+    <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <br> <code>Список запущенных дагов</code> <br>
     <a target="_blank" rel="noopener noreferrer" href="pictures/etl_dag_work.png"><img src="pictures/etl_dag_work.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Демонстрация графа и статусов тасков</code> <br>
     <a target="_blank" rel="noopener noreferrer" href="pictures/table_demonstration.png"><img src="pictures/table_demonstration.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Результирующая таблица с данными за несколько дней</code> <br>
   </p>
