@@ -14,8 +14,8 @@
 <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">Код решения задачи</a>
 <br>
 <details open>
-  <br>
  <summary>
+   <br>
    <b>
      Демонстрация результата работы DAG с ETL-пайплайном (Airflow + Redash)
    </b>
