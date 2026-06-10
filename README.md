@@ -10,7 +10,7 @@
     <li>Финальные данные со всеми метриками записывать в отдельную таблицу в ClickHouse.</li>
     <li>Каждый день таблица должна наполняться новыми данными</li>
   </ol>
-
+<p dir="auto">Стек: ClickHouse, Python (pandas, pandahouse, airflow.decorators), Redash, Apache Airflow, Git</p>
 
 <h3>Автоматизированный <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">отчёт по ленте</a></h3>
 
