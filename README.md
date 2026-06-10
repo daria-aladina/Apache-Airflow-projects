@@ -20,7 +20,7 @@
    </b>
  </summary>
   <p dir="auto">
-    <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="20" style="max-width: 100%;"></a> <code>Список запущенных дагов</code> <br>
+    <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Список запущенных дагов</code> <br>
   </p>
 </details>
 
