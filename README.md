@@ -22,6 +22,8 @@
  </summary>
   <p dir="auto">
     <a target="_blank" rel="noopener noreferrer" href="/pictures/dags_list.png"><img src="/pictures/dags_list.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Список запущенных дагов</code> <br>
+    <a target="_blank" rel="noopener noreferrer" href="pictures/etl_dag_work.png"><img src="pictures/etl_dag_work.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Демонстрация графа и статусов тасков</code> <br>
+    <a target="_blank" rel="noopener noreferrer" href="pictures/table_demonstration.png"><img src="pictures/table_demonstration.png" align="absmiddle" width="400" style="max-width: 100%;"></a> <code>Результирующая таблица с данными за несколько дней</code> <br>
   </p>
 </details>
 
@@ -29,8 +31,8 @@
 
 
 
-<h3>Автоматизированный <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">отчёт по всему приложению</a></h3>
+<h2>Автоматизированный <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/etl_task_report.py" target="_blank">отчёт по всему приложению</a></h2>
 
 
 
-<h3>Релизация <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/alerts_system.py" target="_blank">системы алертов</a></h3>
+<h2>Релизация <a href="https://github.com/daria-aladina/Apache-Airflow-projects/blob/main/alerts_system.py" target="_blank">системы алертов</a></h2>
